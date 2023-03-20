@@ -1,0 +1,34 @@
+@import "../../index.scss";
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 140px auto;
+  .header-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    @include breakpoints(mobile) {
+      width: 100%;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      color: gray;
+    }
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+}

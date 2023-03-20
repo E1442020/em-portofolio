@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+a{
+  color:black
+}
+
+$mainColor:#2E285A;
+
+@mixin breakpoints($point){
+  @if $point==mobile{
+      @media (max-width:940px) {
+          @content;
+      }}}
