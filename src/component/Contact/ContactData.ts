@@ -5,7 +5,7 @@ export const ContactData=[{
     id:1,
     icon:AiOutlineMail,
     contactInfo:'emanmasoud763@gmail.com',
-    href:'mailto:emanmasoud763@email.com'
+    href:'mailto:emanmasoud763@gmail.com'
 
 },
 {
