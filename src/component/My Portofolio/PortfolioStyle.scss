@@ -10,6 +10,11 @@
     flex-direction: column;
 
     gap: 60px;
+    .k{
+      @include breakpoints(mobile) {
+        flex-direction: column;
+      }
+    }
     h2 {
       font-size: 35px;
       text-align: center;

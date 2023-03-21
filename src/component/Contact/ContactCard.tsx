@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactStyle.scss";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Flex } from "@mantine/core";
 export default function ContactCard(props: any) {
   return (
     <div className="card-container">
@@ -12,7 +13,8 @@ export default function ContactCard(props: any) {
         rel="noopener noreferrer"
       >
         <p className="writeMe">
-          Write Me <AiOutlineArrowRight />
+          <Flex align='center'><p>Write Me</p>  <AiOutlineArrowRight /></Flex>
+         
         </p>
       </a>
     </div>

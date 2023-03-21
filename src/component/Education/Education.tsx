@@ -16,7 +16,7 @@ export default function Education() {
             </Text>
           </Timeline.Item>
 
-          <Timeline.Item title="Java Script">
+          <Timeline.Item title="JavaScript">
             <Text color="dimmed" size="sm">
               Elzero complete Courses
             </Text>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './SkillsStyle.scss'
 import {AiFillCaretRight} from 'react-icons/ai'
+import { Flex } from '@mantine/core'
 
 export default function SkillsCard(props:any) {
   return (
@@ -8,7 +9,7 @@ export default function SkillsCard(props:any) {
   
     <div>
         
-        <p><AiFillCaretRight/>{props.name} </p>
+        <Flex justify='center'><AiFillCaretRight/>{props.name} </Flex>
     </div>
  
    </>

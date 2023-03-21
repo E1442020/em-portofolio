@@ -8,16 +8,16 @@ export default function Skills() {
       <div className="skillsContainer" id="skills">
         <div className="skillsContent">
           <h2>Skills</h2>
+          <h4>Front end Developer</h4>
+
           <div className="skills">
             <div className="skillsCard-content">
-              <h4>Front end Developer</h4>
               {SkillsData1.map((skill1) => {
                 return <SkillsCard name={skill1.name} key={skill1.id} />;
               })}
             </div>
 
             <div className="skillsCard-content">
-              <h4>Front end Developer</h4>
               {SkillsData2.map((skill2) => {
                 return <SkillsCard name={skill2.name} key={skill2.id} />;
               })}

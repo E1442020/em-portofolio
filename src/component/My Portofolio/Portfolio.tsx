@@ -14,15 +14,15 @@ export default function Portfolio() {
     <>
       <div className="portfolio-container" id="portfolio">
         <div className="portfolio-content">
-          <h2>My Portofolio</h2>
+          <h2>My Portfolio</h2>
 
           <Tabs color="dark" variant="pills" defaultValue="All">
-            <Flex justify='center'  mb='70px'>
-            <Tabs.List >
-              <Tabs.Tab value="All" fz={14} p='3px'>All</Tabs.Tab>
-              <Tabs.Tab value="React" fz={14} p='3px'>React</Tabs.Tab>
-              <Tabs.Tab value="Java script" fz={14} p='3px'>Java script</Tabs.Tab>
-              <Tabs.Tab value="Html/css/sass" fz={14} p='3px'>Html/css/sass</Tabs.Tab>
+            <Flex justify='center' wrap='wrap' mb='70px' align='center'>
+            <Tabs.List  className="k">
+              <Tabs.Tab value="All" fz={20} >All</Tabs.Tab>
+              <Tabs.Tab value="React" fz={20} >React</Tabs.Tab>
+              <Tabs.Tab value="Java script" fz={20} >JavaScript</Tabs.Tab>
+              <Tabs.Tab value="Html/css/sass" fz={20} >HTML&CSS/SASS</Tabs.Tab>
             </Tabs.List>
             </Flex>
            

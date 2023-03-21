@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="navbar-content">
         <div className="logo-container">
           <div className="logo-content">
-            <h2>My Portofolio</h2>
+            <h2>My Portfolio</h2>
           </div>
 
           <div className="menu-icon" onClick={() => clickHandeler()}>
@@ -26,7 +26,7 @@ export default function Navbar() {
           <li onClick={() => clickHandeler()}><a href="#about">About</a></li>
           <li onClick={() => clickHandeler()}><a href="#skills">Skills</a></li>
           <li onClick={() => clickHandeler()}><a href="#education">Education</a></li>
-          <li onClick={() => clickHandeler()}><a href="#portfolio">Portofolio</a></li>
+          <li onClick={() => clickHandeler()}><a href="#portfolio">Portfolio</a></li>
           <li onClick={() => clickHandeler()}><a href="#contact">Contact</a></li>
         </ul>
       </div>
