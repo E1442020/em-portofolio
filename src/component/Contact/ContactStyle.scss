@@ -1,0 +1,56 @@
+@import "../../index.scss";
+
+.contact-container {
+  margin-top: 120px;
+  background-color: rgba(245, 248, 253, 0.8117647059);
+  padding: 60px 0px;
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+      h2 {
+        font-size: 35px;
+      }
+    }
+    .contact-info {
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+
+      @include breakpoints(mobile) {
+        flex-direction: column;
+        gap: 20px;
+      }
+      .card-container {
+        width: 45%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0px;
+        background-color: white;
+        @include breakpoints(mobile) {
+          width: 100%;
+        }
+        .writeMe {
+          color: gray;
+          cursor: pointer;
+          &:hover {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

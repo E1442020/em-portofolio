@@ -24,10 +24,10 @@ export default function Navbar() {
         <ul className={click ? "show" : ""}>
           <li onClick={() => clickHandeler()} ><a href="#">Home</a></li>
           <li onClick={() => clickHandeler()}><a href="#about">About</a></li>
-          <li onClick={() => clickHandeler()}>Skills</li>
-          <li onClick={() => clickHandeler()}>Qualifications</li>
-          <li onClick={() => clickHandeler()}>Portofolio</li>
-          <li onClick={() => clickHandeler()}>Contact</li>
+          <li onClick={() => clickHandeler()}><a href="#skills">Skills</a></li>
+          <li onClick={() => clickHandeler()}><a href="#education">Education</a></li>
+          <li onClick={() => clickHandeler()}><a href="#portfolio">Portofolio</a></li>
+          <li onClick={() => clickHandeler()}><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>

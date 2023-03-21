@@ -17,13 +17,23 @@ export default function Header() {
             High-level experience in web developer and development knowledge,
             Javascript experience.
           </p>
-          <Button color="dark">Contact Me</Button>
+          <a href="#contact">
+            {" "}
+            <Button color="dark">Contact Me</Button>
+          </a>
           <div className="icon-container">
-            <ActionIcon color="dark" >
-              <a href="https://www.linkedin.com/in/eman-masoud-a159891a0/" target='_blank'><AiFillLinkedin size={25}  /></a>
+            <ActionIcon color="dark">
+              <a
+                href="https://www.linkedin.com/in/eman-masoud-a159891a0/"
+                target="_blank"
+              >
+                <AiFillLinkedin size={25} />
+              </a>
             </ActionIcon>
             <ActionIcon color="dark">
-              <a target='_blank' href="https://github.com/E1442020"><AiFillGithub size={25} /></a>
+              <a target="_blank" href="https://github.com/E1442020">
+                <AiFillGithub size={25} />
+              </a>
             </ActionIcon>
           </div>
         </div>
