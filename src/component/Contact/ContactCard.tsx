@@ -13,7 +13,7 @@ export default function ContactCard(props: any) {
         rel="noopener noreferrer"
       >
         <p className="writeMe">
-          <Flex align='center'><p>Write Me</p>  <AiOutlineArrowRight /></Flex>
+          <Flex align='center' gap='4px'><p>Write Me</p>  <AiOutlineArrowRight /></Flex>
          
         </p>
       </a>

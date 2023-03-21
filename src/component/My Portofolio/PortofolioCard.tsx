@@ -10,8 +10,8 @@ export default function PortofolioCard(props:any) {
         <img src={props.img} alt={props.name}/>
       </div>
       <h3>{props.name}</h3>
-      <Flex align='center'><a href={props.live}>Live </a><AiOutlineArrowRight  style={{color:'gray'}}/></Flex>
-      <Flex align='center'><a href={props.repo}>Repo </a> <AiOutlineArrowRight style={{color:'gray'}}/></Flex>
+      <Flex align='center' gap='4px'><a href={props.live}>Live </a><AiOutlineArrowRight  style={{color:'gray'}}/></Flex>
+      <Flex align='center' gap='4px'><a href={props.repo}>Repo </a> <AiOutlineArrowRight style={{color:'gray'}}/></Flex>
 
     </div>
     </>

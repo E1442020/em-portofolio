@@ -22,7 +22,7 @@ export default function Portfolio() {
               <Tabs.Tab value="All" fz={20} >All</Tabs.Tab>
               <Tabs.Tab value="React" fz={20} >React</Tabs.Tab>
               <Tabs.Tab value="Java script" fz={20} >JavaScript</Tabs.Tab>
-              <Tabs.Tab value="Html/css/sass" fz={20} >HTML&CSS/SASS</Tabs.Tab>
+              <Tabs.Tab value="Html/css/sass" fz={20} >HTML & CSS/SASS</Tabs.Tab>
             </Tabs.List>
             </Flex>
            
