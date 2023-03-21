@@ -27,7 +27,7 @@ export default function AboutMe() {
               );
             })}
           </div>
-          <a href='./My Cv/Eman Masoud-Frontend Developer-React.pdf' download=' My Cv'  target='_blank'>
+          <a href='https://drive.google.com/file/d/1s0SkwdpIuITtoP1IFCDSnXelM1ZCCEl1/view?usp=share_link' download=' My Cv'  target='_blank'>
             {" "}
             <Button color="dark">Download Cv</Button>
           </a>
