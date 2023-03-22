@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="navbar-content">
         <div className="logo-container">
           <div className="logo-content">
-            <h2>My Portfolio</h2>
+            <h2><a href="#portfolio">My Portfolio</a></h2>
           </div>
 
           <div className="menu-icon" onClick={() => clickHandeler()}>
