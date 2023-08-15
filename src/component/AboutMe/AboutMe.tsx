@@ -27,7 +27,11 @@ export default function AboutMe() {
               );
             })}
           </div>
-          <a href='https://drive.google.com/file/d/1s0SkwdpIuITtoP1IFCDSnXelM1ZCCEl1/view?usp=share_link' download=' My Cv'  target='_blank'>
+          <a
+            href="https://drive.google.com/file/d/1GDL5627SHs9YuHas3NuMYVicZxzDsU1e/view"
+            download=" My Cv"
+            target="_blank"
+          >
             {" "}
             <Button color="dark">Download Cv</Button>
           </a>
